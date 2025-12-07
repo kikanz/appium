@@ -1,0 +1,63 @@
+# API Automation Test Suites
+
+## Overview
+This project contains Cypress-based automation test suites for two public APIs:
+1. Dog CEO API
+2. JSONPlaceholder Free Public API
+
+## Prerequisites
+- Node.js (v20+ recommended)
+- npm or yarn
+- Cypress
+
+## Test Suites
+
+### Dog CEO API Tests (`dogApi.cy.js`)
+Test scenarios:
+- Fetch a random dog image
+- Fetch a random dog image from a specific breed
+- List all dog breeds
+
+### JSONPlaceholder API Tests (`publicApi.cy.js`)
+Test scenarios:
+- Fetch list of users
+- Fetch a specific post
+- Create a new post
+
+### Google Search Tests
+Files:
+- `googleSearch.cy.js`: Cypress test suite
+- `googlePage.js`: Page Object Model for Google Search page
+
+Test scenarios:
+- Verify autocomplete suggestions for "synot games"
+- Check search input retains typed value
+
+## Project Structure
+```
+cypress/
+├── e2e/
+│   └──api
+│       └── dogApi.cy.js
+│       └── publicApi.cy.js
+│   └── ui/
+│       └── googleSearch.cy.js
+└── support/
+    └── pageObject/
+        └── google/
+            └── googlePage.js
+```
+
+## Setup and Running Tests
+1. Install dependencies:
+```bash
+npm install cypress
+```
+
+2. Run tests:
+```bash
+npx cypress open
+```
+
+3. In Cypress Test Runner, select the respective test files.
+

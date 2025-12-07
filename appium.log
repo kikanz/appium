@@ -1,0 +1,7 @@
+2025-12-07 15:10:33:957 [Appium] Welcome to Appium v2.19.0
+2025-12-07 15:10:33:958 [Appium] The autodetected Appium home path: /Users/kristinatomcova/moxymind_task
+2025-12-07 15:10:33:958 [Appium] Attempting to load driver uiautomator2...
+2025-12-07 15:10:33:959 [Appium] Requiring driver at /Users/kristinatomcova/moxymind_task/node_modules/appium-uiautomator2-driver/build/index.js
+2025-12-07 15:10:34:304 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.346s
+2025-12-07 15:10:34:319 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+2025-12-07 15:10:34:320 [Appium] Could not configure Appium server. It's possible that a driver or plugin tried to update the server and failed. Original error: listen EADDRINUSE: address already in use 0.0.0.0:4723
