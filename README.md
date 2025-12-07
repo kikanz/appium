@@ -35,11 +35,11 @@ Verify search results appear
 Search for an article
 
 
-Article Saving
+Article Opening
 
 Open an article
-Save the article
-Verify article is saved
+Open the article
+Verify article is displayed
 
 
 
